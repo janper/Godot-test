@@ -10,8 +10,8 @@ var temp_vector = Vector2()
 func _ready():
 	set_process(true)
 	houses = get_children()
+
 func _process(delta):
-	
 	elapsed_time += delta
 	var i = 0
 	for house in houses:
